@@ -43,8 +43,9 @@
                         color: white;
 
                         &:hover {
-                            color: #bb232e;
-                            text-underline-offset: 0.5rem;
+                            text-decoration: underline;
+                            text-underline-offset: 1.1rem;
+                            text-decoration-color: #bb232e;
                             text-decoration-thickness: 0.2rem;
                         }
                     }
@@ -75,6 +76,7 @@
                 grid-column: 2/3;
                 grid-row: 2/3;
                 font-size: 2.5rem;
+                margin-top:1rem;
 
                 &>strong {
                     color: #bb232e;

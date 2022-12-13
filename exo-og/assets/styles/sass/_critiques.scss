@@ -43,8 +43,9 @@
                         color: white;
 
                         &:hover {
-                            color: #bb232e;
-                            text-underline-offset: 0.5rem;
+                            text-decoration: underline;
+                            text-underline-offset: 1.1rem;
+                            text-decoration-color: #bb232e;
                             text-decoration-thickness: 0.2rem;
                         }
                     }
@@ -59,7 +60,7 @@
             display: grid;
             grid-template-columns: .2fr 1fr .2fr;
             grid-row: 2/3;
-            height:100%;
+            height: 100%;
             padding-bottom: 10rem;
 
             &>h3 {
@@ -72,7 +73,7 @@
                 text-transform: uppercase;
                 font-weight: bold;
                 margin: 1rem 0;
-                align-self:center;
+                align-self: center;
             }
 
             &>ul {
@@ -112,7 +113,7 @@
                             color: RGB(0, 139, 139);
 
                             &:hover {
-                                color:red;
+                                color: red;
                             }
                         }
                     }
@@ -123,18 +124,18 @@
     &>footer {
         background-color: #1c2f42;
         display: grid;
-        color:white;
+        color: white;
         grid-template-rows: 5vh 8vh 5vh;
         padding: 1rem;
-        grid-row:3/4;
+        grid-row: 3/4;
 
         &>h2 {
             text-align: center;
-            text-transform:uppercase;
+            text-transform: uppercase;
             align-self: center;
 
             &::first-letter {
-                color:rgb(187, 35, 46);
+                color: rgb(187, 35, 46);
             }
         }
         &>figure {
@@ -144,21 +145,21 @@
             justify-content: center;
             height: 60%;
 
-            & > img {
-                height:100%;
+            &>img {
+                height: 100%;
             }
         }
 
         &>p {
-            text-align:center;
+            text-align: center;
 
             &>a {
-                color:white;
+                color: white;
                 text-decoration: underline;
                 text-underline-offset: 0.3rem;
 
                 &:hover {
-                    color:red;
+                    color: red;
                 }
             }
         }
